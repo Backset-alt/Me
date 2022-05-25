@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-<html lang="es">  
-  <head>    
-    <title>Portafolio</title>    
-    <meta charset="UTF-8">
-    <meta name="title" content="Portafolio">
-    <meta name="description" content="Portafolio de Cristian Medina">    
-    <link href="http://dominio.com/hoja-de-estilos.css" rel="stylesheet" type="text/css"/>    
-  </head>  
-  <body>    
-    <header>
-      <h1>Portafolio</h1>      
-    </header>    
+<html>
 
-  </body>  
+<head>
+  <title>
+    Portafolio
+  </title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="grid-container">
+    <div id="sidebar">
+      <div class="profile-box">
+        <img src="profile.jpg" class="profile" alt="Logo Veterinaria">
+        <p class="text accent-text">Cristian Eduardo Medina Morocho</p>
+        <a class="text email" href="mailto:cristian.e.medina@unl.edu.ec">cristian.e.medina@unl.edu.ec</a>
+        <p class="text">0980940498</p>
+        <p class="text">1998-10-03</p>
+      </div>
+      <div class="info">
+        <a href="#skills" class="url">Skills</a>
+        <a href="#projects" class="url">Projects</a>
+      </div>
+    </div>
+
+    <main>
+      <h1 class="accent-text">welcome to my profile</h1>
+      <h2 id="skills">Skills</h2>
+      <ul>
+        <li>Java : Medium</li>
+        <li>Python : Medium</li>
+        <li>HTML : Medium</li>
+        <li>CSS : Medium</li>
+        <li>MySQL : Medium</li>
+        <li>PostgreSQL : Medium</li>
+      </ul>
+      <h2 id="projects">Projects</h2>
+      <ul>
+        <li><a href="https://github.com/Backset-alt/citas_medicas_veterinaria">Medical appointments for veterinarians |
+            Django</a></li>
+        <li> <a href="https://gitlab.com/Backset/medical-system-app">Medical System : App | Flutter</a></li>
+        <li> <a href="https://gitlab.com/Steven_Martinez/frontend_medical_system">Medical System : Frontend |
+            Angular</a></li>
+        <li> <a href="https://gitlab.com/omar1999/proyecto-5-ciclo">Medical System : BackEnd | Django</a></li>
+        <li> <a href="https://gitlab.com/san98unl/proyecto-lenguaje-y-audicion">language and hearing : BackEnd/Fontend |
+            NodeJs</a></li>
+      </ul>
+    </main>
+  </div>
+</body>
+
 </html>
