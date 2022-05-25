@@ -107,3 +107,11 @@ a {
 .text {
   padding: 5px 0px;
 }
+
+.icon {
+  font-size: 35px;
+}
+
+.paragraph {
+  text-align: justify;
+}
