@@ -19,7 +19,7 @@
   --secondary: #6c757d;
   --light: #f8f9fa;
   --white: #ffffff;
-  --height-f: calc(100% / 6);
+  --height-f: calc(100% / 7);
 }
 
 * {
@@ -51,7 +51,7 @@ main {
   background: var(--color4);
   grid-area: sidebar;
   border-radius: var(--main-radius);
-  padding: calc(100%/2) 30px;
+  padding: calc(100%/3) 30px;
 }
 
 
